@@ -1,4 +1,5 @@
 <h1 align="center">String Token</h1>
+
 - First we create a main class with main method.
 - Then using string method trim we deleted all whitespaces in the beginning of the string and at end of the string.
 - Then we define an if condition, that checks if the length of the string is equal to 0 or not.
