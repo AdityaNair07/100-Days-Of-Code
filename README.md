@@ -1,1 +1,16 @@
-# 100-Days-Of-Code
+<h1 align="center"> 
+100 Days of Code
+</h1>
+<h5 align="center">
+Programming Language : Java
+</h5>
+
+<h8>
+Hello guys, this repository is all about coding for 100 days.
+Also not stopping after 100 days is my motive.
+You can find solutions to different coding problems here with readme files for each problem which will make you understand the solution even better.
+</h8>
+
+# Contents
+
+- <b>Day 01</b> - [String Token](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2001)
