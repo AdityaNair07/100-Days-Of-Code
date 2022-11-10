@@ -1,4 +1,5 @@
 <h1>Inheritance</h1>
+
 - First we created a class named Animal.
 - Inside the class we defined a void return type method named walk.
 - We print "I am walking".
