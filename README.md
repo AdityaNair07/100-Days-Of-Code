@@ -18,3 +18,4 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 03</b> - [Inheritance 2](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2003)
 - <b>Day 04</b> - [Data types](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2004)
 - <b>Day 05</b> - [Loops 2](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2005)
+- <b>Day 06</b> - [End Of File](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2006)
