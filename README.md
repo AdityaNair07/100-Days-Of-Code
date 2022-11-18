@@ -23,3 +23,4 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 08</b> - [Currency Formatter](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2008)
 - <b>Day 09</b> - [Date and Time](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2009)
 - <b>Day 10</b> - [Anagrams](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2010)
+- <b>Day 11</b> - [Pattern Checker](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2011)
