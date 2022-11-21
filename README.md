@@ -26,3 +26,4 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 11</b> - [Pattern Checker](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2011)
 - <b>Day 12</b> - [Substring Comparison](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2012)
 - <b>Day 13</b> - [Prime Number](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2013)
+- <b>Day 14</b> - [BigInteger](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2014)
