@@ -1,6 +1,7 @@
 <h1 align="center">Iterator Class</h1>
 Java Iterator class can help you to iterate through every element in a collection.
 
+
 - First created the main class Iterator_class.
 - Then defined a static Iterator function called func which takes an ArrayList as parameter.(mylist)
 - Inside this function, created an Iterator object it that is initialised to constructor of Iterator class called by mylist.
