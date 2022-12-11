@@ -1,0 +1,30 @@
+<h1 align="center">Java Varargs</h1>
+
+- First, created a class named Add.
+- Inside this class defined a public void type method named add that takes dynamic input parameters i.e. using varargs method(datatype... variable_name).
+- Inside the method, created a StringBuilder object named sb.
+- Then, declared and initialised an integer variable named sum to 0.
+- Then, defined a for each loop that runs for the iterable n.
+- Inside the loop, variable sum is updated by adding i into it till the loop terminates.
+- Then, adding i with a String to StringBuilder sb using append method.
+- After exiting the loop, update sb by storing the value of the deleted character.
+- Using the deleteCharAt method with the argument length of sb -1.
+- Then, printing sb while adding value of sum variable and converting it to String.
+- After completing the Add class, created a main class with main method.
+- Inside the main method, defined a try-catch block.
+- Inside the try block, created an object named br of BufferedReader class  with object of InputStreamReader class to take user input.
+- Then, declared 6 Integer variables named n1,n2,n3......n6.
+- The variables store the user input type casted to String.
+- Then, created an object named ob of class Add.
+- Using the add method and providing the different arguments to it.
+- Then, created a Method type array named methods which stores Add class methods in it using getDeclaredMethods.
+- Created a Set of String type named set.
+- Declared and initialised a boolean variable overload to false.
+- Then, defined a for loop that runs from 0 to length of methods array.
+- Inside the loop, defined an if condition.
+- If set contains any element of methods array, then update the value of overload to true and break the loop.
+- Else add the elements of methods array to set.
+- After exiting the for loop, defined an if condition.
+- If overload value is true then, throw a new exception with a message to display.
+- After exiting the try block, the catch block catches the exception and displays the exception.
+- Hence, providing the output.
