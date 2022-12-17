@@ -1,0 +1,29 @@
+<h1 align="center">Java Comparator</h1>
+
+- First created a class named Player.
+- Inside the class declared a String variable name and an integer variable score.
+- Then created a Player constructor that takes name and score as parameters.
+- Inside the constructor using this keyword to access name and score variables.
+- Then, created a class named Checker that implements Comparator interface of type Player i.e a class.
+- Inside this, created an integer return type function named compare that takes two parameters that are objects of Player class o1 and o2.
+- Inside the function, defined an if-else ladder.
+- The if condition checks if o1 score variable is smaller than o2 score variable.
+- If yes then return 1.
+- Else if o1 score variable is greater than o2 score variable then return -1.
+- Else block is defined containing an if-else ladder.
+- The if condition ,compares o1 name variable to o2 name variable using compareTo function of Comparator class.
+- If the result is less than or equal -1, then return -1.
+- Else if compare o1 name to o2 name, if result is greater than or equal to 1.
+- Else return 0.
+- After exiting the Checker class created a main class with main method.
+- Inside the main method, created an object of Scanner class named sc that takes user input.
+- Then declared an integer variable n that takes integer user input.
+- Then created an array object of Player class named player that has a size of n.
+- Then created a Checker class object named checker.
+- Then defined a for loop, that runs from 0 to n.
+- Inside the loop, storing Player object into the player object array.
+- Passing Integer and String user input to the Player constructor parameter.
+- Then using the Array class sort function which takes the array to be sorted and the comparator to determine the order of the array namely player and checker.
+- Then defined a for loop, that runs from 0 to length of player array.
+- Inside the loop, printing player name and score.
+- Hence providing the output. 
