@@ -1,0 +1,28 @@
+<h1 align="center">Java Prime Checker</h1>
+
+- First created a class named Prime.
+- Inside the class, created a void return type function named checkPrime that takes Integer numbers as parameter (using varargs functionality to take dynamic input).
+- Inside the function defined for loop that runs from 0 to length of numbers.
+- Inside the loop, defined an if condition that checks if the elements in numbers is prime or not using the isPrime() function.
+- After exiting the condition and loop, printing a new line.
+- Then defined the boolean return type isPrime() funtion that takes integer parameter input named num.
+- Inside the function defined an if-else ladder.
+- If num is smaller than 2 or num is completely divisible by 2 and num is not equal to 2 ,then return false.
+- Else if num is equal to 2 ,then return true.
+- Then declared an integer variable named sqrt that stores the square root of num variable using sqrt function of Math package and then type casting it to integer.
+- Then defined a for loop, that runs from 3 to less than equal to sqrt variable value.
+- Inside the loop, defined an if condition that checks if num variable is completely divisible by i or not.
+- If yes then return false.
+- The return type of isPrime() function is set to true.
+- Then created the main class with main method.
+- Inside the main method, created an object of Prime class named prime.
+- Then created an object of Scanner class named sc that takes user input.
+- Then declared an integer array named numbers that has size of 5.
+- Then defined a for loop that runs from 0 to 5.
+- Inside the loop, storing user integer input to numbers array.
+- Using prime object to access checkPrime function that takes numbers array element at (length of array - 5)th index.
+- Using prime object to access checkPrime function that takes numbers array element at (length of array - 5)th index and element at (length of array - 4)th index.
+- Using prime object to access checkPrime function that takes numbers array element at (length of array - 5)th index and element at (length of array - 4)th index and element at (length of array - 3)th index.
+- Using prime object to access checkPrime function that takes numbers array element at (length of array - 5)th index and element at (length of array - 4)th index and element at (length of array - 3)th index and element at (length of array - 2)th index and element at (length of array - 1)th index.
+- Exiting the main method.
+- Hence providing the output.
