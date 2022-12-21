@@ -55,3 +55,5 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 40</b> - [Java Comparator](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2040)
 - <b>Day 41</b> - [Java Stack](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2041)
 - <b>Day 42</b> - [Prime Checker](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2042)
+- <b>Day 43</b> - [Java Regex](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2043)
+- <b>Day 44</b> - [Valid Username Regex](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2044)
