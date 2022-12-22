@@ -1,0 +1,41 @@
+<h1 align="center">Java Priority Queue</h1>
+
+A priority queue is an abstract data type which is like a regular queue, but where additionally each element has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority.
+
+- First created a class named Student.
+- Inside the class, declared an Integer variable id, a String variable name and a Double type variable cgpa.
+- Then created a constructor which takes an Integer, a String and a Double variable as parameter.
+- Inside the constructor accessing the id, name and cgpa variables using this keyword.
+- Then defined an Integer return type method named getID that returns id.
+- Then defined a String return type method named getName that returns name.
+- Then defined a Double return type method named getCGPA that returns cgpa.
+- After exiting this class, created another class named Priorities.
+- Inside the class, defined a List of Student type method named getStudents that takes a List of String type (events) as parameter. 
+- Inside the method, created a List of Student type named studentlist.
+- Then defined a for each loop that iterates through the List of String passed as parameter.
+- Inside the loop, created a String array named temp that stores the elements of event List by splitting them through spaces.
+- Then defined an if-else condition.
+- The if condition checks if the element at 0 index of temp array is equal to "ENTER" using equals method.
+- If the condition satisfies, created a Student class object named student that takes the element at 3rd index, element at 1st index and element at 2nd index of temp array.
+- Then added student object to studentlist using add method.
+- Else if condition checks if the element at 0 index of temp array is equal to "SERVED".
+- If the condition satisfies then inside the else if condition, execute the if condition.
+- The if condition checks if the studentlist is not empty i.e it runs if the outcome of isEmpty() method is false.
+- Then studentlist stores the outcome of comparing of getCGPA, getName and getID outputs in sorted order.
+- Then remove the element at 0 index of studentlist using remove method.
+- Finally return the studentlist.
+- Then created the main class with main method.
+- Inside the main class created a final static Scanner class object named sc that takes user input.
+- And created a final static object of Priorities class.
+- Inside the main method, created an Integer variable named totalEvents that takes String user input and parse it into Integer type using parseInt method.
+- Then created a list of String type named events.
+- Then defined a while loop that runs till totalEvents becomes 0.
+- Inside the loop, created String variable named event that takes String user input.
+- Then add the input to events list using add method.
+- Then created a List of Student class objects named students that stores getStudents() method output using Priorities class object and passing events as argument in the method.
+- Then, defined an if-else condition.
+- The if condition checks if the students list is empty or not.
+- If the outcome is true, then print "EMPTY".
+- Else, defined a for each loop that iterates through students list elements.
+- Inside the loop, printing the names using getName() method.
+- Hence providing the output.
