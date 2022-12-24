@@ -1,0 +1,21 @@
+<h1 align="center">Can You Access?</h1>
+
+- First created the main class with main method.
+- Inside the main method, defined a try-catch block.
+- Inside the try block, created a BufferedReader class object named br that takes user input using object of InputStreamReader.
+- Then created an Integer variable named num that reads user input after removing the whitespaces at the beginning and end of the input using trim() method.
+- Then the input is typecasted to Integer using parseInt() method.
+- Then created an Object class object named o.
+- Then o is used to hold the reference of the instance of the class Solution.Inner.Private.
+- Then printing the num variable value and the output of powerof2() method with num as argument.
+- The powerof2() method is accessed by using the object of Inner class and Private class.
+- Then printing the class name of object o using the getClass() method.
+- After exiting the try block, the catch block catches any exception and displays a message.
+- Then declared a Static class named Inner.
+- Inside the class created another class named Private that has Private access specifier.
+- Inside the class created a private String return type method named powerof2 that takes integer variable (num) as parameter.
+- The method checks ternary condition, num and num-1 are equal to 0. 
+- If the outcome is true then print power of 2.
+- Else print not a power of 2.
+- The method returns the output of a ternary condition.
+- Hence providing the output.
