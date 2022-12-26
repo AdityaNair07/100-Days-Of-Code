@@ -59,3 +59,6 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 44</b> - [Valid Username Regex](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2044)
 - <b>Day 45</b> - [Java Priority Queue](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2045)
 - <b>Day 46</b> - [Java Covariant Return Type](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2046)
+- <b>Day 47</b> - [Can You Access?](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2047)
+- <b>Day 48</b> - [MD5](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2048)
+- <b>Day 49</b> - [Java Deque](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2049)
