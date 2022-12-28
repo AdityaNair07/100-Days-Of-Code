@@ -63,3 +63,4 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 48</b> - [MD5](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2048)
 - <b>Day 49</b> - [Java Deque](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2049)
 - <b>Day 50</b> - [Java Annotation](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2050)
+- <b>Day 51</b> - [Java SHA-256](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2051)
