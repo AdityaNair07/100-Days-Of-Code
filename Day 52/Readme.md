@@ -1,0 +1,50 @@
+<h1 align="center">Java Lambda Expression</h1>
+
+One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method, then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method, such as what action should be taken when someone clicks a button. Lambda expressions enable you to do this, to treat functionality as method argument, or code as data.
+
+- First created an Interface named PerformOperation.
+- Inside this interface created a abstract boolean method named check that takes Integer variable (a) as parameter. 
+- Then declared a class named MyMath.
+- Inside this class created a static boolean method named checker that takes two parameters.
+- Object of PerformOperation class and an Integer variable num.
+- The method returns the output of check() method which takes num as argument.
+- Then created a public PerformOperation type method named isOdd() that returns output using lambda expression (parameter)->{expression}.
+- Returns a, if a is not divisible by 2.
+- Then created a public PerformOperation type method named isPrime() that returns output using lambda expression.
+- Returns a, if a is equal to 1 or 2; or a is not divisible by 2 and a is not divisible by 3.
+- Then created a public PerformOperation type method named isPalindrome() that returns output using lambda expression.
+- Returns a, that stores isPalindromeChecker() method output that returns String type of a.
+- Then created a private boolean method named isPalindromeChecker that takes String s as parameter.
+- Inside the method, declared and initialised an Integer variable start to 0.
+- Declared an Integer variable end that stores String length -1 using length() method.
+- Then defined a while loop that runs till start is smaller than end.
+- Inside the loop, defined an if condition that checks character at start value index is not equal to character at end value index.
+- If the condition is true then return false.
+- Increment start value and decrement end value.
+- After exiting the while loop, return true.
+- Then created the main class with main method.
+- Inside the main method created object of MyMath class named ob.
+- Created BufferedReader object br that takes user input using InputStreamReader object.
+- Then declared an Integer variable T that stores user input typecasted to Integer using parseInt() method.
+- Then created an object of PerformOperation.
+- Then declared a boolean variable named ret that is initialised to false.
+- Declared a String variable named ans that is initialised to null.
+- Then defined a while loop that runs till T becomes 0.
+- Inside the loop, declared a String variable s that stores String input after removing whitespaces in beginning and end of input.
+- Then created StringTokenizer object named st; passed s as argument in StringTokenizer() constructor.
+- Then declared Integer variable named ch that stores nextToken() that is typecasted to Integer.
+- Then declared Integer variable named num that stores nextToken() that is typecasted to Integer.
+- Then defined an if-else ladder.
+- The if condition checks if the ch value is equal to 1.
+- Inside the if condition op object stores the output of isOdd() method.
+- ret stores the output of checker() method with op and num as argument.
+- ans stores the output of ternary condition that returns "ODD" if ret value is true else returns "EVEN".
+- Else if condition checks if ch value is equal to 2.
+- Inside the else if condition, op stores output of isPrime() method.
+- ret stores the output of checker() method with op and num as argument.
+- ans stores the output of ternary condition that returns "PRIME" if ret value is true else else returns "COMPOSITE".
+- Else if condition checks if ch value is equal to 3.
+- Inside the else if condition, op stores output of isPalindrome() method.
+- ret stores output of checker() method with op and num as argument.
+- ans stores the output of ternary condition that returns "PALINDROME" if ret value is true else returns "NOT PALINDROME".
+- Finally printing ans value and providing the output.
