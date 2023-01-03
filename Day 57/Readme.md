@@ -1,0 +1,23 @@
+<h1 align="center">Scope</h1>
+
+- First created a class named Difference.
+- Inside the class created a private integer array named elements and public integer variable named maximumDifference.
+- Then created a constructor that takes integer array as parameter.
+- Inside the constructor the array is accessed.
+- Then created a public method of void return type named computeDifference().
+- Inside the method declared two integer variables min and max that are initialised to element at 0th index of array elements.
+- Then defined a for loop that runs from 0 to length of elements array.
+- Inside the loop, defined two if conditions.
+- If the element at ith index of elements array is smaller than min variable value, then store that element in min variable.
+- If the element at ith index of elements array is greater than max variable value, then store that element in max variable.
+- maximumDifference variable stores the absolute difference between max and min variable using abs() method of Math package.
+- Then created the main class with main method.
+- Inside the main method created an object of Scanner class named sc that takes user input.
+- Declared an integer variable n that takes integer user input.
+- Then declared an integer array a of size n.
+- Then defined a for loop that runs from 0 to n.
+- Inside the loop, storing user input in array.
+- Created an object of Difference class named difference; the constructor takes a array as argument.
+- Calling computeDifference() method using difference object.
+- Then printing the maximumDifference variable value using that object.
+- Hence providing the output.
