@@ -1,0 +1,34 @@
+<h1 align="center">Binary Search Tree</h1>
+
+- First created a Node named class.
+- Inside the class declared two Node type variables left and right.
+- Declared an integer variable named data.
+- Then created a constructor that takes integer variable (data) as parameter.
+- Inside the constructor accessing data using this keyword and initialising left and right to null.
+- Created the main class named BinarySearchTree.
+- Defined a static integer return type method named getHeight() that takes Node root as parameter.
+- Inside the method, declared two integer variables heightleft and heightright that are initialised to 0.
+- Then defined two if conditions.
+- If the root.left is not equal to null, then heightleft stores getHeight() with root.left as parameter and add by 1.
+- If the root.right is not equal to null, then heightright stores getHeight() with root.right as parameter and add by 1.
+- Return ternary operator output i.e. heigthleft is greater than heightright then return heightleft else return heightright.
+- Then defined static Node type method named insert() that takes Node root and integer variable (data) as parameter.
+- Inside the method defined if-else condition.
+- If root is equal to null, then return new Node with data as argument.
+- Else declared Node type variable cur.
+- Inside else defined if-else condition.
+- If data is smaller than or equal to root data, then cur stores insert() method output; root left and data are passed as argument.
+- root left stores cur variable value.
+- Else cur stores insert() method output; root right and data are passed as argument.
+- root right stores cur variable value.
+- Return root.
+- Then defined the main method.
+- Inside the main method created an object of Scanner class named sc that takes user input.
+- Declared an integer variable T that takes integer user input.
+- Created Node type variable root that is initialised to null.
+- Then defined while loop that runs till T becomes 0. 
+- Inside the loop declared an integer variable data that takes integer user input.
+- root stores the output of insert() method that takes root and data as argument.
+- Declared an integer variable height that stores getHeight() method output with root as argument.
+- Finally printing the heigth variable value.
+- Hence providing the output.
