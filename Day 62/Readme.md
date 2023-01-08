@@ -1,0 +1,37 @@
+<h1 align="center">BST Level Order Traversal</h1>
+
+- First created a class named Node.
+- Inside the class declared Node type variables left and right.
+- Then declared an integer variable named data.
+- Then created a constructor that takes integer variable named data.
+- Inside the constructor, data is accessed using this keyword; left and right variable are initialised to null.
+- Then created the main class named BSTLevelOrderTraversal.
+- Then defined a static void return type method named levelOrder() that takes Node root as parameter.
+- Inside the method created a linked list of type Node named queue.
+- Then adding root to queue using add() method.
+- Then defined a while loop that runs till the first element is not null using peek() method.
+- Inside the loop, created Node object named node that stores queue head using remove() method.
+- Then printing node data.
+- Then defined if conditions.
+- If node left value is not equal to null, then add node left to queue using add() method.
+- If node right value is not equal to null, then add node right to queue using add() method.
+- If the first element of queue is not equal to null, then printing empty String.
+- Then created a static Node type method named insert() that takes Node root and integer variable data as parameter.
+- Inside the method defined if-else condition.
+- If root is equal to null, then return new Node with data as argument.
+- Else declared Node variable cur.
+- Defined an if-else condition.
+- If data is smaller than or equal root data, then cur stores insert() method output using root.left and data as argument.
+- And root left stores cur value.
+- Else cur stores insert() method output using root.right and data as argument.
+- And root right stores cur value.
+- The method returns root.
+- The main method is defined.
+- Inside the main method created an object of Scanner class named sc that takes user input.
+- Then declared an integer variable named T that takes integer user input.
+- Node root is declared and initialised to null.
+- Then defined a while loop that runs till T becomes 0.
+- Inside the loop, declared integer variable named data that stores integer user input.
+- root stores output of insert() method that takes root and data as argument.
+- Then calling levelOrder() method that takes root as argument.
+- Hence providing the output.
