@@ -73,3 +73,8 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 58</b> - [Linked List](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2058)
 - <b>Day 59</b> - [Exceptions - String to Integer](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2059)
 - <b>Day 60</b> - [More Exceptions](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2060)
+- <b>Day 61</b> - [Binary Search Tree](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2061)
+- <b>Day 62</b> - [BST Level Order Traversal](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2062)
+- <b>Day 63</b> - [More Linked List](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2063)
+- <b>Day 64</b> - [Nested Logic](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2064)
+- <b>Day 65</b> - [Testing](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2065)
