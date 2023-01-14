@@ -1,0 +1,25 @@
+<h1 align="center">Bitwise AND</h1>
+
+- First created a class named Result.
+- Inside the class defined a static integer return type method named bitwiseAnd() that takes two integer variables as parameters(n,k).
+- Inside the method declared an integer variable max that stores the minimum value of integer using MIN_VALUE.
+- Then defined a for loop that runs from 1 to N.
+- Inside the loop defined another loop that runs from i+1 to N.
+- Inside the loop declared an integer variable named result that stores i & j output.
+- Defined an if condition that checks if result is smaller than K and the result is greater than max.
+- If yes max stores result value.
+- The method returns max.
+- Created the main class with the main method.
+- Inside the main method created object of BufferedReader named br that takes user input using object of InputStreamReader.
+- Created object of BufferedWriter named bw that gives output using object of FileWriter.
+- Declared integer variable t that stores user input after removing the whitespaces before and after the input using trim() method and type casting to integer using parseInt() method.
+- IntStream method range() is used that returns a sequential ordered IntStream from startInclusive (inclusive) to endExclusive (exclusive) by an incremental step of 1; 0 and N are passed as the arguments.
+- Defined a forEach loop.
+- Inside the loop defined a try-catch block.
+- Inside the try block created a String array named firstMultipleInput that stores user input after replacing the regular expression and splitting using split() method.
+- Declared an integer variable count that stores the first element of firstMultipleInput after type casting it to integer using parseInt() method.
+- Declared an integer variable lim that stores the second element of firstMultipleInput after type casting it to integer using parseInt() method.
+- Declared an integer variable res that stores bitwiseAnd() method output that takes count and lim as arguments.
+- Then printing the value of res using write() method and type casting it to String.
+- Inside the catch block defined a new exception RuntimeException.
+- Hence providing the output.
