@@ -1,0 +1,22 @@
+<h1 align="center">Time Conversion</h1>
+
+- First created a class named Result.
+- Defined a static String return type method named timeConversion() that takes String s as parameter.
+- Inside the method declared four String variables.
+- hrs stores the substring from 0 to 2 i.e. hrs.
+- min stores the substring from 3 to 5 i.e. min.
+- sec stores the substring from 6 to 8 i.e. sec.
+- ampm stores the substring from 8 to 10 i.e. am or pm.
+- Then defined an if condition that checks if ampm is equal to AM and hrs is equal to 12.
+- If yes then hrs stores 00.
+- Else if ampm is equal to PM and hrs is equal to 12 then hrs stores 12.
+- Else if ampm is equal to PM then declared an integer variable named hr that stores hrs value after typecasting to Integer using parseInt() method.
+- 12 is added to hr value.
+- hrs stores hr value after typecasting to String using toString() method.
+- The method returns hrs, min and sec.
+- Created the main class with main method.
+- Inside the main method created an object of BufferedReader br that takes user input using object of InputStreamReader.
+- Created an object of BufferedWriter bw that outputs result using object of FileWriter.
+- Declared a String variable s that takes String user input.
+- Declared a String variable result that stores the output of timeConversion() method that takes s as argument.
+- Finally printing the result value.
