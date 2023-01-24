@@ -1,0 +1,23 @@
+<h1 align="center">Breaking Records</h1>
+
+- First created a class Result.
+- Inside the class defined a static List of Integer type breakingRecords() that takes List of Integer (scores) as parameter.
+- Inside the method declared integer variables.
+- lowestRecord that stores 0th index element.
+- highestRecord that stores 0th index element.
+- Integer variable lowestRecordCount and highestRecordCount that are initialised to 0.
+- Declared list of integer type records.
+- Defined a for loop that runs from 1 to size of scores.
+- Inside the loop defined an if condition that checks if the element at ith index of scores is greater than highestRecord.
+- If yes highestRecord stores the element and highestRecordCount is incremented.
+- Else if ith element of scores if smaller than lowestRecord
+- If yes lowestRecord stores the element and lowestRecordCount is incremented.
+- Then adding highestRecordCount and lowestRecordCount to records using add().
+- The method returns records.
+- The main class BreakingRecords with the main method.
+- Inside the main method created object of BufferedReader br that takes user input using object of InputStreamReader.
+- Created an object of BufferedWriter that provides output using object of FileWriter object.
+- Declared an integer variable n that takes user input.
+- Declared a list of integer scores that stores Integer user input.
+- Declared a list of Integer result that stores breakingRecords() method that takes scores as argument.
+- Hence providing the output.
