@@ -1,0 +1,27 @@
+<h1 align="center">Apple and Orange</h1>
+
+- First created a class Result.
+- Inside the class defined a static void return type method countApplesAndOranges() that takes integer s,t,a,b and List of Integer type apples and oranges as parameters.
+- Inside the method declared two integer variables counta and counto.
+- Defined a for loop that runs from 0 to size of apples list.
+- Inside the loop defined an if condition that checks, if the sum of a and the element at ith index is greater than or equal to s and if the sum of a and the element at ith index is smaller than or equal to t.
+- Increment value of counta.
+- Defined a for loop that runs from 0 to size of oranges list.
+- Inside the loop defined an if condition that checks, if the sum of b and the element at ith index is greater than or equal to s and if the sum of b and the element at ith index is smaller than or equal to t.
+- Increment value of counto.
+- Printing the values of counta and counto.
+- Declared the main class with the main method.
+- Inside the main method created object of BufferedReader br that takes user input using object of InputStreamReader.
+- Declared a String array firstMultipleInput that stores user input.
+- Declared an integer variable s that stores the first index of firstMultipleInput array.
+- Declared an integer variable t that stores the second index of firstMultipleInput array.
+- Declared a String array secondMultipleInput that stores user input.
+- Declared an integer variable a that stores the first index of secondMultipleInput array.
+- Declared an integer variable b that stores the second index of secondMultipleInput array.
+- Declared a String array thirdMultipleInput that stores user input.
+- Declared an integer variable m that stores the first index of thirdMultipleInput array.
+- Declared an integer variable n that stores the second index of thirdMultipleInput array.
+- Then declared a list of integer type apples that stores distance of fallen apples.
+- Then declared a list of integer type oranges that stores distance of fallen oranges.
+- Finally printing the output of countApplesAndOranges() method that takes s,t,a,b,apples and oranges as arguments.
+- Hence providing the output.
