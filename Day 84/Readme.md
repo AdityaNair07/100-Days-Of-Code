@@ -1,0 +1,23 @@
+<h1 align="center">Angry Professor</h1>
+
+- Created a class Result.
+- Inside the class defined a static String return type angryProfessor() method that takes integer k and List of integer a as parameter.
+- Inside the method declared an integer variable p that is initialised to 0.
+- Declared a String variable s that is an empty.
+- Defined a for loop that runs from 0 to size of a.
+- Inside the loop defined an if condition that checks if the ith element of list a is smaller than or equal to 0.
+- Then p value is incremented.
+- Then defined if-else condition.
+- If p is greater than or equal to k then s stores NO as string.
+- Else s stores YES as string.
+- The method returns s value.
+- Then created main class with main method.
+- Inside the main method created object of BufferedReader br that takes user input using object of InputStreamReader.
+- Then created object of BufferedWriter bw provides output using object of FileWriter.
+- Declared an integer variable t that takes integer user input.
+- Declared String array firstMultipleInput that stores user input.
+- Declared two integer variables that stores first and second element of firstMultipleInput.
+- Declared a List of integer type a that stores integer user input.
+- Then declared String variable result that stores angryProfessor() method output that takes k and a as argument.
+- Finally printing result value using write() method.
+- Hence providing the output.
