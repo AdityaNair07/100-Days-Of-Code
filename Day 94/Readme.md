@@ -1,0 +1,21 @@
+<h1 align="center">Funny String</h1>
+
+- First created Result class.
+- Inside the class defined a static String return type method funnyString() that takes String variable s as parameter.
+- Inside the method declared two integer arrays a and b of size s length - 1.
+- Then declared an empty String variable s2.
+- Then declared a for loop that runs from 0 to length of s.
+- Inside the loop adding ith character and s2, updating s2.
+- Then declared for loop that runs from 0 to s length.
+- Inside the loop declared another for loop that runs from i+1 to length of s.
+- Inside the inner loop storing the difference of ascii value of character at ith and character at jth of s to ith position of a.
+- Storing the difference of ascii value of character at ith and character at jth of s2 to ith position of b.
+- Incrementing i value.
+- Then declared an integer variable count that is initialised to 0.
+- Then declared a for loop that runs from 0 to length of b.
+- Inside the loop defined an if condition that checks if ith element of a and b are equal.
+- If yes then count value is incremented.
+- Then defined if-else condition that checks if count value is equal to b length.
+- If yes then return "Funny".
+- Else return "Not Funny".
+- Hence providing the output.
