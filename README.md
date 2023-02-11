@@ -104,3 +104,8 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 89</b> - [Migratory Birds](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2089)
 - <b>Day 90</b> - [Jumping on the Clouds](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2090)
 - <b>Day 91</b> - [Beautiful Triplets](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2091)
+- <b>Day 92</b> - [Pangram](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2092)
+- <b>Day 93</b> - [Find Digits](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2093)
+- <b>Day 94</b> - [Funny String](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2094)
+- <b>Day 95</b> - [Making Anagrams](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2095)
+- <b>Day 96</b> - [Correctness and the Loop Invariant](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2096)
