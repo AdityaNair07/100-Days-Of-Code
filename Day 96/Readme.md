@@ -1,0 +1,21 @@
+<h1 align="center">Correctness and the loop invariant</h1>
+
+- Created the main class.
+- Inside the class defined a static void return type method named insertionSort() that takes integer array A as parameter.
+- Inside the method declared a for loop that runs from 1 to length of A.
+- Inside the loop declared integer variable value that stores ith element of A.
+- Then declared an integer variable j that stores i-1 value.
+- Then defined a while loop that runs till j is greater than or equal to 0 and the jth element of A is greater than value.
+- Inside the while loop j+1th position stores jth elemnt of A.
+- j value is decremented by 1.
+- After the while loop ends j+1th position of A stores value variable's value.
+- Then calling printArray() method that takes A as argument.
+- Defined a static void return type method printArray() that takes integer array ar as parameter.
+- Inside the method defined a for each loop that iterates through the elements of ar array and printing the elements.
+- Inside the main method created an object of Scanner class in that takes user input.
+- Then declared an integer n that takes integer user input.
+- Declared an integer array ar of n size.
+- Then defined a for loop that runs from 0 to n.
+- Inside the loop integer user input is stored at ith position.
+- Finally calling insertionSort() method that takes ar as argument.
+- Hence providing the output.
