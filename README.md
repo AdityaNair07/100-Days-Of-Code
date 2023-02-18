@@ -109,3 +109,7 @@ You can find solutions to different coding problems here with readme files for e
 - <b>Day 94</b> - [Funny String](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2094)
 - <b>Day 95</b> - [Making Anagrams](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2095)
 - <b>Day 96</b> - [Correctness and the Loop Invariant](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2096)
+- <b>Day 97</b> - [Strange Counter](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2097)
+- <b>Day 98</b> - [Two Strings](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2098)
+- <b>Day 99</b> - [String Construction](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2099)
+- <b>Day 100</b> - [Electronic Shop](https://github.com/AdityaNair07/100-Days-Of-Code/tree/main/Day%2100)
